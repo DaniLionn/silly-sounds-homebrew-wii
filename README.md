@@ -2,6 +2,8 @@
  A simple homebrew app that plays silly sound effects when you press a button on a Wii Remote!
  
  Made with the devkitPPC mp3 Player template.
+
+Download here! https://wiibrew.org/wiki/File:Silly-sounds.zip
  
 # Building
 
