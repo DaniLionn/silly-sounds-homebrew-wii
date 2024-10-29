@@ -3,7 +3,7 @@
  
  Made with the devkitPPC mp3 Player template.
 
- [Download](https://www.dropbox.com/scl/fi/2cmk6booi2a9rw58nz9r0/silly-sounds.zip?rlkey=u8u6uvptf14545dgytebx19od&st=hjtwbrtr&dl=0)
+ [Download](https://wiibrew.org/wiki/File:Silly-sounds.zip)
  
 # Building
 
