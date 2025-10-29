@@ -36,6 +36,7 @@
 #include "sound23_mp3.h"
 #include "sound24_mp3.h"
 #include "sound25_mp3.h"
+#include "bye_mp3.h"
 
 static void *xfb = NULL;
 static GXRModeObj *rmode = NULL;
@@ -87,9 +88,13 @@ int main(int argc, char **argv) {
 	// e.g. printf ("\x1b[%d;%dH", row, column );
 	printf("\x1b[2;0H");
 
-	printf("SILLY SOUND MAKER\nPress any button to make a sound!\nPress HOME to exit.\n");
-
-
+	printf("SILLY SOUND MAKER - DaniLionn, 2024-2025\n\n");
+	printf("\x1b[4;3H");
+	printf("Press any button to make a sound!\n");
+	printf("\x1b[5;3H");
+	printf("Connect a Nunchuk or Classic Controller for more sounds!\n");
+	printf("\x1b[6;3H");
+	printf("Press the HOME button to exit.\n");
 
 	while(1) {
 
@@ -101,7 +106,15 @@ int main(int argc, char **argv) {
 		u32 pressed = WPAD_ButtonsDown(0);
 
 		// We return to the launcher application via exit
-		if ( pressed & WPAD_BUTTON_HOME ) exit(0);
+		if ( pressed & WPAD_BUTTON_HOME ) {
+
+			printf("\x1b[8;3H");
+			printf("Bye!");
+			MP3Player_PlayBuffer(bye_mp3, bye_mp3_size, NULL);
+			while (MP3Player_IsPlaying());
+
+			exit(0);
+		};
 		if ( pressed & WPAD_BUTTON_A ) 	MP3Player_PlayBuffer(sound0_mp3, sound0_mp3_size, NULL);
 		if ( pressed & WPAD_BUTTON_B ) 	MP3Player_PlayBuffer(sound1_mp3, sound1_mp3_size, NULL);
 		if ( pressed & WPAD_BUTTON_1 ) 	MP3Player_PlayBuffer(sound2_mp3, sound2_mp3_size, NULL);
