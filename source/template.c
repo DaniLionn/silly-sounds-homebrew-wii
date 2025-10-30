@@ -71,6 +71,9 @@ int main(int argc, char **argv) {
 	// Tell the video hardware where our display memory is
 	VIDEO_SetNextFramebuffer(xfb);
 
+	// Clean the framebuffer 
+	VIDEO_ClearFrameBuffer(rmode, xfb, COLOR_BLACK);
+
 	// Make the display visible
 	VIDEO_SetBlack(false);
 
