@@ -16,3 +16,6 @@ https://oscwii.org/library/app/silly-sounds
 ## Wiibrew Page
 https://wiibrew.org/wiki/Silly_Sound_Maker
 
+## DS Edition!
+https://github.com/DaniLionn/silly-sounds-homebrew-wii/releases/tag/Special
+
