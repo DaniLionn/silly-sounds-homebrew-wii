@@ -1,4 +1,6 @@
-# Silly Sound Maker ![logo](./icon.png)
+![Image of a smiling emoji with buck teeth and text that says "Silly Sound Maker" on a blue gradient background.](./icon.png)
+
+# Silly Sound Maker
 
 
 
