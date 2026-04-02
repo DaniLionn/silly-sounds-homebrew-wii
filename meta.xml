@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="2.1">
+	<name>Silly Sound Maker</name>
+	<version>2.1</version>
+	<release_date>20251029000000</release_date>
+	<coder>DaniLionn</coder>
+	<short_description>Make silly sounds!</short_description>
+	<long_description>
+	Press buttons on your Wii Remote to make silly sounds!
+	Connect a Nunchuk or Classic Controller for more sounds!
+	</long_description>
+</app>
+
