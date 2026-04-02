@@ -1,19 +1,16 @@
-# silly-sounds-homebrew-wii
+# Silly Sound Maker ![logo](./icon.png)
+
+
+
  A simple homebrew app that plays silly sound effects when you press a button on a Wii Remote!
  
- Made with the devkitPPC mp3 Player template.
+Made with the devkitPPC mp3 Player template.
 
- [Download](https://wiibrew.org/wiki/File:Silly-sounds.zip)
- 
-# Building
 
-Build instructions for Linux.
+## Open Shop Channel
+https://oscwii.org/library/app/silly-sounds
 
-1. Install [devkitPPC.](https://devkitpro.org/wiki/Getting_Started)
-2. Add this to your include path
-```
-/opt/devkitpro/**
-/usr/src/linux-headers-6.8.0-47/**
-/usr/src/linux-headers-6.8.0-47-generic/**
-```
-3. Run "make" in the project dir
+
+## Wiibrew Page
+https://wiibrew.org/wiki/Silly_Sound_Maker
+
